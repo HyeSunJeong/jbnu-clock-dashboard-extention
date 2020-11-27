@@ -1,5 +1,7 @@
 import './App.css';
 
+import Greeting from './comporment/Greeting';
+
 export default function App() {
   return (
     <div className="app">
@@ -7,12 +9,11 @@ export default function App() {
         <div className="background-item"></div>
       </div>
       <div className="main">
-        <header className="header">
-          <p>
-            안녕안녕 내 이름은 봉오야~ 혜선이 안녕 준서 안녕
-          </p>
+        <header>
         </header>
-        <main></main>
+        <main className="container">
+          <Greeting />
+        </main>
         <footer></footer>
       </div>
     </div>

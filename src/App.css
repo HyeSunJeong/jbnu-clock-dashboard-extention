@@ -66,9 +66,8 @@
   transition: opacity .3s ease;
 }
 
-.header {
+.container {
   background-color: transparent;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
