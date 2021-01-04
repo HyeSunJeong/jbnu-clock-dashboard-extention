@@ -13,7 +13,7 @@ export default function HomePage() {
     <>
       <Header renderRightComponent={() => <Weather />}/>
       <div className={styles.container}>
-        <GreetingLabel styleName={styles.greeting} name={"문봉오"} event={'종강'} />
+        <GreetingLabel styleName={styles.greeting} name={"정혜선"} event={'종강'} />
         {/* d-day를 받아서 남은 시간을 카운트를 한다. */}
         <CountdownTimer endDate={"20201222"} />
       </div>
